@@ -35,10 +35,14 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 ![image](https://github.com/cardosoguisilva/azure-network-protocols/assets/157248613/149c0a2f-d7b2-4c9b-891f-5df14ed0385d)
 
-- Make Ubuntu's VM is in the same Vnet and Subnet.
+- Make sure Ubuntu's VM is in the same Vnet and Subnet.
 
 ![image](https://github.com/cardosoguisilva/azure-network-protocols/assets/157248613/a3df6377-409b-4233-bfd2-f60fef43e989)
 
+2 Observe Traffic Between the Two VMs
+- Open VM1-Windows10 and install Wireshark to observe traffic between the two VMs.
+- Go to https://www.wireshark.org/download.html and select Windows x64 Installer. And install everything by default.
 
+![image](https://github.com/cardosoguisilva/azure-network-protocols/assets/157248613/e69aa49a-08ad-438f-9f5c-55c030d298a7)
 
--
+- 
