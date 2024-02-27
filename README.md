@@ -56,5 +56,12 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 ![image](https://github.com/cardosoguisilva/azure-network-protocols/assets/157248613/acfca517-0d07-4188-9a03-43f27a2bbf60)
 
-- 
+- - Changing the Firewall to block ICMP traffic.
+  - On Azure go to VM2's Network Security Group (NSG) and add an Inbound Rule to DENY ICMP Traffic.
+  
+![image](https://github.com/cardosoguisilva/azure-network-protocols/assets/157248613/857d4347-b07d-4da0-91b8-d6b829f4f23b)
+
+  
+- SSH Traffic
+- - 
 
