@@ -70,11 +70,22 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 ![image](https://github.com/cardosoguisilva/azure-network-protocols/assets/157248613/85fd1c35-0c4c-4698-b599-58792f167fb0)
 
  
-- DHCP Traffic
-- - Filter by DHCP (used to assign IP addresses)
+- DHCP Traffic (used to assign IP addresses)
+- - Filter by DHCP 
   - command "ipconfig /renew"
 
 ![image](https://github.com/cardosoguisilva/azure-network-protocols/assets/157248613/3b84ebae-ebbd-4bc6-9377-ad799bab7511)
+
+- DNS Traffic (used to find out Public IP addresses)
+- - use the command "nslookup" to see what google.com and disney.com’s IP addresses are.
+
+![image](https://github.com/cardosoguisilva/azure-network-protocols/assets/157248613/064a98e4-67e4-458d-9879-4e7c9d11f900)
+
+- RDP Traffic or tcp.port == 3389
+- - It shows traffic between your computer and VM1, which is why it is spamming nonstop.
+
+![image](https://github.com/cardosoguisilva/azure-network-protocols/assets/157248613/d18125dd-1d77-42e2-bf54-5dd1d4537e2e)
+
 
 
   
