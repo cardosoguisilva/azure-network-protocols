@@ -56,12 +56,25 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 ![image](https://github.com/cardosoguisilva/azure-network-protocols/assets/157248613/acfca517-0d07-4188-9a03-43f27a2bbf60)
 
-- - Changing the Firewall to block ICMP traffic.
-  - On Azure go to VM2's Network Security Group (NSG) and add an Inbound Rule to DENY ICMP Traffic.
-  
+  - - Changing the Firewall to block ICMP traffic.
+    - On Azure go to VM2's Network Security Group (NSG) and add an Inbound Rule to DENY ICMP Traffic.
+      
 ![image](https://github.com/cardosoguisilva/azure-network-protocols/assets/157248613/857d4347-b07d-4da0-91b8-d6b829f4f23b)
-
+   
+  - - Now when trying to ping VM2 the request will timeout.
+    
+![image](https://github.com/cardosoguisilva/azure-network-protocols/assets/157248613/fbeaff72-5011-42fc-a117-5d4b185b6ae1)
   
 - SSH Traffic
-- - 
+- - Set SSH filter on wireshark and use PowerShell to "SSH into" VM2 using its private address.
+  - Use this command on PowerShell "ssh [username of your vm2]@[private address of VM2]". Type your password. NOTE: Password will not show on Powershell but it does work, type your password anyway and press enter.
+  - With this, you can type commands on your VM2 such as id, pwd, ls -lasth, etc.
+
+![image](https://github.com/cardosoguisilva/azure-network-protocols/assets/157248613/85fd1c35-0c4c-4698-b599-58792f167fb0)
+
+ 
+  
+  
+
+ 
 
