@@ -6,10 +6,6 @@
 In this tutorial, we observe various network traffic to and from Azure Virtual Machines with Wireshark as well as experiment with Network Security Groups. <br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: Azure Virtual Machines, Wireshark, and Network Security Groups](https://www.youtube.com)
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
@@ -69,11 +65,18 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - - Set SSH filter on wireshark and use PowerShell to "SSH into" VM2 using its private address.
   - Use this command on PowerShell "ssh [username of your vm2]@[private address of VM2]". Type your password. NOTE: Password will not show on Powershell but it does work, type your password anyway and press enter.
   - With this, you can type commands on your VM2 such as id, pwd, ls -lasth, etc.
+  - Exit by typing "exit"
 
 ![image](https://github.com/cardosoguisilva/azure-network-protocols/assets/157248613/85fd1c35-0c4c-4698-b599-58792f167fb0)
 
  
-  
+- DHCP Traffic
+- - Filter by DHCP (used to assign IP addresses)
+  - command "ipconfig /renew"
+
+![image](https://github.com/cardosoguisilva/azure-network-protocols/assets/157248613/3b84ebae-ebbd-4bc6-9377-ad799bab7511)
+
+
   
 
  
