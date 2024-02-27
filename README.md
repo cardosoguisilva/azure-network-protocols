@@ -26,6 +26,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h2>High-Level Steps</h2>
 
 - Create Resources
+- Install Programs
 - Observe Traffic Between the Two VMs
 
 <h2>Actions and Observations</h2>
@@ -39,10 +40,11 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 ![image](https://github.com/cardosoguisilva/azure-network-protocols/assets/157248613/a3df6377-409b-4233-bfd2-f60fef43e989)
 
-2 Observe Traffic Between the Two VMs
-- Open VM1-Windows10 and install Wireshark to observe traffic between the two VMs.
-- Go to https://www.wireshark.org/download.html and select Windows x64 Installer. And install everything by default.
+2 Install Programs
+- Open VM1-Windows10 and install Wireshark.
+- Go to https://www.wireshark.org/download.html and select Windows x64 Installer. Install everything by default.
 
 ![image](https://github.com/cardosoguisilva/azure-network-protocols/assets/157248613/e69aa49a-08ad-438f-9f5c-55c030d298a7)
 
+3 Observe Traffic Between the Two VMs
 - 
