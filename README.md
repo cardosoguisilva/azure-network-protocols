@@ -47,4 +47,14 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 ![image](https://github.com/cardosoguisilva/azure-network-protocols/assets/157248613/e69aa49a-08ad-438f-9f5c-55c030d298a7)
 
 3 Observe Traffic Between the Two VMs
+- Start Wireshark and choose Ethernet connection, this will show the live traffic in the VM.
+
+![image](https://github.com/cardosoguisilva/azure-network-protocols/assets/157248613/716350cc-ed32-440b-8b56-13fc0b9373b2)
+
+- ICMP Traffic
+- - Set the filter on wireshark for ICMP go to PowerShell and ping VM2 private IP Address.
+
+![image](https://github.com/cardosoguisilva/azure-network-protocols/assets/157248613/acfca517-0d07-4188-9a03-43f27a2bbf60)
+
 - 
+
